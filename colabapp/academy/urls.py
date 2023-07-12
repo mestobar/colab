@@ -3,6 +3,6 @@ from .views import v_course
 
 urlpatterns = [
 
-    path('course', v_course)
+    path('course/<int:course_id>', v_course)
 
 ]
